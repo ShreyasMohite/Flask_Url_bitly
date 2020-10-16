@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(-90deg, rgb(2, 2, 12), rgb(20, 16, 48), rgb(27, 13, 53));
+}
+
+.form {
+    margin-top: 15%;
+    margin-left: 18%;
+}
+
+input[type="text"] {
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    border: 1px solid blueviolet;
+}
+
+input[type="text"]:focus {
+    box-shadow: 2px 4px 5px blueviolet;
+}
+
+button {
+    width: 100px;
+    height: 37px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rebeccapurple;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 2px 3px 5px blue;
+}
+
+.card {
+    width: 50%;
+    height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+    background-color: floralwhite;
+    margin-top: 40px;
+    margin-left: 23%;
+    padding: 20px;
+    box-shadow: 3px 4px 25px blueviolet;
+}

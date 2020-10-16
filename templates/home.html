@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <form action="/" method="POST">
+        <div class="form">
+            <input type="text" name="urls" id="" placeholder="Please Enter Url">
+            <button type="submit">Done</button>
+        </div>
+    </form>
+    <div class="card">
+        {%if name%}
+        <h4>{{name[0]['names']}}</h4>
+        {%else%}
+        <h4></h4>
+        {%endif%}
+    </div>
+    {%block content%} {%endblock%}
+
+</body>
+
+</html>
